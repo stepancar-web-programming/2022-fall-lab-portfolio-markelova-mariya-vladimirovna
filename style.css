@@ -1,0 +1,161 @@
+body{
+    margin: 1% 0 ;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(
+    0deg,
+    rgba(160, 188, 239, 0.965) 23.8%,
+    #F6F6F6 92%
+  );
+}
+
+.main-menu{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu li{
+    display: inline-block;
+ }
+
+.main-menu a{
+	color: #010507;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 22px; 
+}
+
+.main-menu a:hover{
+    color: #000000;
+     font-weight: bold;
+}
+
+.container {
+	max-width: 1250px;
+    margin:0 auto;
+    position: relative;
+}
+
+#my_name{
+font-size: 50px;
+line-height: 59px;
+float:left;
+margin: 10px 0px;
+    padding: 10px;
+}
+
+#description{
+font-size: 25px;
+line-height: 22px; 
+float: right;
+margin: 20px 0px;
+    padding: 10px;
+}
+
+.backgraund {
+    width: 100%;
+    background: #F6F6F6;
+}
+
+#about {
+    margin: 5%;
+    padding: 5%;
+}
+
+#info {
+    margin: 5%;
+    padding: 5%;
+}
+
+
+.heading {
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+}
+
+.text {
+    margin: 1%;
+    padding: 3%;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.picture{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    width: 250px;
+
+}
+
+#contacts{
+    margin: 4%;
+    padding: 3%;
+    
+}
+
+.box{
+    width: 100%;
+    list-style: none;
+    padding:0 0 3%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;  
+}
+
+.pic{
+    display: inline-block;
+    margin: 0;
+    padding: 3%;
+}
+
+.hidden{
+    display:none;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 3.5s;
+}
+  
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
