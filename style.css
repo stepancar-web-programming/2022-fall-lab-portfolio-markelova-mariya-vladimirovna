@@ -1,63 +1,63 @@
-body{
-    margin: 1% 0 ;
+body {
+    margin: 1% 0;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(
-    0deg,
-    rgba(160, 188, 239, 0.965) 23.8%,
-    #F6F6F6 92%
-  );
+            0deg,
+            rgba(160, 188, 239, 0.965) 23.8%,
+            #F6F6F6 92%
+    );
 }
 
-.main-menu{
+.main-menu {
     width: 100%;
     list-style: none;
     padding: 0;
-    margin: 0 ;
+    margin: 0;
     display: flex;
     justify-content: space-between;
 }
 
-.main-menu li{
+.main-menu li {
     display: inline-block;
- }
+}
 
-.main-menu a{
-	color: #010507;
+.main-menu a {
+    color: #010507;
     text-decoration: none;
     padding: 10px;
     font-size: 18px;
-    line-height: 22px; 
+    line-height: 22px;
 }
 
-.main-menu a:hover{
+.main-menu a:hover {
     color: #000000;
-     font-weight: bold;
+    font-weight: bold;
 }
 
 .container {
-	max-width: 1250px;
-    margin:0 auto;
+    max-width: 1250px;
+    margin: 0 auto;
     position: relative;
 }
 
-#my_name{
-font-size: 50px;
-line-height: 59px;
-float:left;
-margin: 10px 0px;
+#my_name {
+    font-size: 50px;
+    line-height: 59px;
+    float: left;
+    margin: 10px 0px;
     padding: 10px;
 }
 
-#description{
-font-size: 25px;
-line-height: 22px; 
-float: right;
-margin: 20px 0px;
+#description {
+    font-size: 25px;
+    line-height: 22px;
+    float: right;
+    margin: 20px 0px;
     padding: 10px;
 }
 
-.backgraund {
+.backgraund  {
     width: 100%;
     background: #F6F6F6;
 }
@@ -74,9 +74,9 @@ margin: 20px 0px;
 
 
 .heading {
-font-size: 34px;
-line-height: 42px;
-text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
 }
 
 .text {
@@ -87,7 +87,7 @@ text-align: center;
     text-align: center;
 }
 
-.picture{
+.picture {
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -96,29 +96,29 @@ text-align: center;
 
 }
 
-#contacts{
+#contacts {
     margin: 4%;
     padding: 3%;
-    
+
 }
 
-.box{
+.box {
     width: 100%;
     list-style: none;
-    padding:0 0 3%;
+    padding: 0 0 3%;
     margin: 0 auto;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
 
-.pic{
+.pic {
     display: inline-block;
     margin: 0;
     padding: 3%;
 }
 
-.hidden{
-    display:none;
+.hidden {
+    display: none;
 }
 
 .slideshow-container {
@@ -130,6 +130,7 @@ text-align: center;
 .mySlides {
     display: none;
 }
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -148,14 +149,7 @@ text-align: center;
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-
-  
 .fade {
-    animation-name: fade;
-    animation-duration: 3.5s;
-}
-  
-@keyframes fade {
-    from {opacity: 0.4}
-    to {opacity: 1}
+  animation-name: fade;
+  animation-duration: 3.5s;
 }
