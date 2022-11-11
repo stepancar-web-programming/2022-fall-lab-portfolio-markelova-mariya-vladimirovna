@@ -2,14 +2,15 @@
   "name": "2022-fall-lab-portfolio-markelova-mariya-vladimirovna-dev",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.27.0",
-    "eslint-plugin-react": "^7.31.10"
+    "stylelint": "^14.14.1",
+    "stylelint-config-standard": "^29.0.0"
   }
 }
