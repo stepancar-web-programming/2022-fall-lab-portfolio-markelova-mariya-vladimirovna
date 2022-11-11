@@ -1,101 +1,104 @@
 <!DOCTYPE html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.gstatic.com" rel="preconnect">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
-    <title>Визитка </title>
+	<title>Визитка</title>
 </head>
+
 <body>
-<div class="container">
-    <div id="nav">
-        <ul class="main-menu">
+    <div class="container">
+		<div id="nav">
+			 <ul class="main-menu">
             <li><a href="#home">Главная</a></li>
             <li><a href="#info">Информация</a></li>
             <li><a href="#about">Обо мне </a></li>
-            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#contacts">Контакты</a></li> 
             <li><a href="more.html">Больше</a></li>
         </ul>
-    </div>
-</div>
-<div class="container" id="home">
-    <div id="line"></div>
-</div>
+	</div>
+	</div>
+
+    <div class="container" id="home">
+	         <div id="line"><hr></div>
+	</div>
+
+    
 <div class="container">
-    <div id="my_name">Мария Маркелова</div>
-    <div id="description">Аналитик данных <br></div>
+<div id="my_name">Мария Маркелова  
 </div>
+
+<div id="description">Аналитик данных <br></div>
+</div>
+
 <div class="slideshow-container">
-    <div class="mySlides fade"> <img src="img/p1.jpg" style="width:100%;"></div>
-    <div class="mySlides fade"><img src="img/p2.jpg" style="width: 100%;"></div>
-    <div class="mySlides fade"><img src="img/p3.jpg" style="width: 100%;"></div>
+    <div class="mySlides fade">
+      <img src="img/p1.jpg" style="width:100%;">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img/p2.jpg" style="width: 100%;">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img/p3.jpg" style="width: 100%;">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<div style="text-align:center">
+    <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-<script>
-    let slideIndex = 0;
-    showSlides();
-    function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-            slideIndex = 1
-        }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 2000);
-    }
-</script>
+
+<script src="script.js"></script>
+
 <div class="backgraund">
     <div class="container">
-        <div id="info">
-            <div class="heading">Информация</div>
-                 <div class="text">Обеспечу уверенность в принятии решений, основываясь на результатах своих
-                исследований.<br>Помогу повысить показатели компании, используя эффективные методы:
-                     <li> Применяю методы стаститического анализа</li>
-                     <li> Разбираюсь в бизнес-процессах компании</li>
-                     <li> Умею моделировать и прогнозировать</li>
-                     <li> Сформулирую гипотезы и протестирую их</li>
-                     <li> Произведу математические расчеты</li>
-                 </div>
-            <div class="text">Имела возможность сотрудничать с такими компаниями, как:</div>
-                     <li> Газпром</li>
-                     <li> СберСервис</li>
-            <div class="text">Обучение:</div>
-                     <br>
-                     <li>Учусь в Университете ИТМО</li>
-                     <li>Имею дополнительное образование по специальности "Аналитик данных"</li>
+        <div id="info"> 
+            <div class="heading">Информация</div> 
+            <div class="text">Обеспечу уверенность в принятии решений, основываясь на результатах своих исследований.<br>Помогу повысить показатели компании, используя эффективные методы: </div>
+               <li> Применяю методы стаститического анализа </li>
+               <li> Разбираюсь в бизнес-процессах компании </li>
+               <li> Умею моделировать и прогнозировать </li>
+               <li> Сформулирую гипотезы и протестирую их  </li>
+               <li> Произведу математические расчеты </li>
+            <div class="text">Имела возможность сотрудничать с такими компаниями, как: </div>
+               <li> Газпром </li>
+               <li> СберСервис </li>
+            <div class="text">Обучение: </div><br> 
+            <li>Учусь  в Университете ИТМО</li>
+            <li>Имею дополнительное образование по специальности "Аналитик данных"</li></div>
         </div>
     </div>
 </div>
+
 <div class="backgraund">
-    <div class="container">
-        <div id="about">
-            <div class="heading">Обо мне</div>
-            <div class="text">Занимаюсь два года аналитикой данных. <br> Люблю свое дело и подхожу к нему с полной
-                серьезностью</div>
-            <div class="text">Люблю животных</div>
-            <div class="text">Играю на фортепиано, двукратная Чемпионка Европы по каратэ <br></div>
-            <div class="text">Свободное время люблю проводить с друзьями и дорогими мне людьми<br></div>
-        </div>
-    </div>
+	<div class="container">
+		<div id="about"> 
+			<div class="heading">Обо мне</div> 
+			<div class="text">Занимаюсь два года аналитикой данных. <br> Люблю свое дело и подхожу к нему с полной серьезностью </div>
+			<div class="text">Люблю животных</div>
+            <div class="text">Играю на фортепиано, двукратная Чемпионка Европы по каратэ <br> </div>
+            <div class="text">Свободное время люблю проводить с друзьями и дорогими мне людьми<br> </div>
+		</div>
+	</div>
 </div>
+
 <div class="container">
-    <div id="contacts">
-        <div class="heading">Контакты</div>
-        <div class="box">
-            <div class="pic"><a href="https://vk.com/m_mrkl"><img src="icons/vk.png"></a></div>
-            <div class="pic"><a href="https://www.instagram.com/m_mrkl/"><img src="icons/inst.png"></a></div>
-            <div class="pic"><a href="https://t.me/m_mrkl"><img src="icons/telega.png"></a></div>
-        </div>
-    </div>
+	<div id="contacts">
+		<div class="heading">Контакты</div>
+                <div class="box">
+				<div class="pic"><a href="https://vk.com/m_mrkl"><img src="icons/vk.png"></a></div>
+				<div class="pic"><a href="https://www.instagram.com/m_mrkl/"><img src="icons/inst.png"></a></div>
+				<div class="pic"><a href="https://t.me/m_mrkl"><img src="icons/telega.png"></a></div>
+			</div>
+	</div>
 </div>
 </body>
+</html>
