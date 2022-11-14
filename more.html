@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css" type="text/css"/>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
-	<title>Визитка</title>
+    <title>Визитка</title>
 </head>
 <body>
-    <div class="container">
-		<div id="nav">
-			 <ul class="main-menu">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="index.html">Информация</a></li>
-                <li><a href="index.html">Обо мне </a></li>
-                <li><a href="index.html">Контакты</a></li>
-                <li><a href="index.html">Больше</a></li>
-            </ul>
-	    </div>
-    </div>
-    <video width="1000px" height="1000px" controls>
-        <source src="video/v2.mp4" type="video/mp4">
-        <source src="movie.ogg" type="video/ogg">
-    </video>
+<div class="nav" id="navigation">
+    <ul>
+        <a class="active" href="#home">Главная</a>
+        <a href="index.html">Информация</a>
+        <a href="index.html">Обо мне</a>
+        <a href="index.html">Контакты</a>
+        <a href="#">Больше</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+    </ul>
+<video controls height="1000px" width="1000px">
+    <source src="video/v2.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+</video>
 </body>
 </html>
