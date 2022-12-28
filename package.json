@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint ./"
   },
-  "homepage": "https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-markelova-mariya-vladimirovna/tree/dev#readme",
+  
   "author": "",
   "license": "ISC",
   "devDependencies": {
